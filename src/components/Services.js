@@ -1,4 +1,4 @@
-import mow from '../assets/services/mow.jpg';
+import mow from '../assets/services/mow.png';
 import treeRemoval from '../assets/services/tree-removal.jpg';
 import Card from './Card';
 import useWindowDimensions from './hooks/useWindowDimensions';
@@ -43,6 +43,7 @@ export default function Services() {
         <div className="pb-8 flex flex-col items-center bg-green-800">
             <h1 className="mt-8 text-3xl border-b-2 border-black text-white">Services We Offer</h1>
             {displayServices()}
+            <Card title="Ask about our pressure washing services!" />
         </div>
     )
 }

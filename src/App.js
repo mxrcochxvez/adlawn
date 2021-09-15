@@ -1,3 +1,5 @@
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Services from "./components/Services";
 import Splash from "./components/Splash";
@@ -7,7 +9,9 @@ function App() {
     <div >
       <Splash />
       <Services />
+      <Contact />
       <Gallery />
+      <Footer />
     </div>
   );
 }
