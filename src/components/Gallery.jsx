@@ -12,12 +12,12 @@ import _ from 'lodash'
 
 const images = [
     imageOne,
-    imageTwo,
-    imageThree,
-    imageFour,
-    imageFive,
     imageSix,
-    imageSeven
+    imageFive,
+    imageSeven,
+    imageFour,
+    imageThree,
+    imageTwo
 ]
 
 function objectify(n) {
