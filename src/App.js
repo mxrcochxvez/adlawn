@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
       <Helmet>
-        <title>Andre's Lawn Care</title>
-        <meta name="description" content="Website for Andre's Lawn Care." />
+        <title>Andre's Lawn Care - Lawncare services you can trust</title>
+        <meta name="description" content="Lawncare service that will exceed your expectations. We offer plenty of services that will have your yard looking excellen!" />
         <meta name="title" content="Andre's Lawn Care"/>
         <meta name="author" content="Marco Chavez"/>
       </Helmet>

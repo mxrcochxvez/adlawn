@@ -7,10 +7,10 @@ export default function Contact() {
                     <h1 className="text-3xl text-gray-600">Ways to get in touch!</h1>
                     <div className="grid grid-cols-2 grid-rows-1 gap-2 mt-4">
                         <a href="tel:+15599057105">
-                            <button className="bg-green-400 text-white px-12 py-2 rounded-md">Call us</button>
+                            <button aria-label="Call" className="bg-green-400 text-white px-12 py-2 rounded-md">Call us</button>
                         </a>
                         <a href="https://www.facebook.com/adlawncareservice" target="_blank" rel="noreferrer">
-                            <button className="bg-blue-800 text-gray-200 px-10 py-2 rounded-md">FaceBook</button>
+                            <button aria-label="Facebook" className="bg-blue-800 text-gray-200 px-10 py-2 rounded-md">FaceBook</button>
                         </a>
                     </div>
                 </div>
