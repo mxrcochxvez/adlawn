@@ -4,7 +4,7 @@ import Gallery from "./components/Gallery";
 import Services from "./components/Services";
 import Splash from "./components/Splash";
 import { Helmet } from "react-helmet";
-import Youtube from "./components/Youtube";
+import YTVideos from "./components/YTVideos";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <Services />
       <Contact />
       <Gallery />
-      <Youtube />
+      <YTVideos />
       <Footer />
     </div>
   );
